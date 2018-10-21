@@ -3,6 +3,9 @@ install: install-deps install-flow-typed
 run:
 	npx babel-node -- 'src/index.js'
 
+run_dbTest:
+	npx babel-node -- 'src/database/index.js'
+
 install-deps:
 	npm install
 

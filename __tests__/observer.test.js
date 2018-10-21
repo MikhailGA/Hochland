@@ -3,16 +3,7 @@ import * as observer from '../src/observer';
 
 const oldState = [
   {
-    cipName: 'CIP911',
-    programm: 0,
-    wayNumber: 0,
-    stageNumber: 0,
-    stepNumber: 0,
-    delayTimeCode: 0,
-    emgDelay: 0,
-  },
-  {
-    cipName: 'CIP912',
+    name: 'CIP911',
     programm: 0,
     wayNumber: 0,
     stageNumber: 0,
@@ -24,18 +15,9 @@ const oldState = [
 
 const newState = [
   {
-    cipName: 'CIP911',
-    programm: 1,
-    wayNumber: 0,
-    stageNumber: 0,
-    stepNumber: 0,
-    delayTimeCode: 0,
-    emgDelay: 0,
-  },
-  {
-    cipName: 'CIP912',
-    programm: 0,
-    wayNumber: 0,
+    name: 'CIP911',
+    programm: 2,
+    wayNumber: 1,
     stageNumber: 0,
     stepNumber: 0,
     delayTimeCode: 0,
@@ -45,12 +27,11 @@ const newState = [
 
 
 test('RunCip', async () => {
-  // observer.watch(Promise.resolve(oldState));
-  // observer.watch(Promise.resolve(newState));
-
-  // observer.eventEmitter.addListener('CipRun', ({ cipName, programm }) => {
-  //   expect(cipName).toBe('CIP911');
-  //   expect(programm).toBe(1);
-  // });
-  expect(1).toBe(1);
+  observer.watch(Promise.resolve(oldState));
+  observer.watch(Promise.resolve(newState));
+  expect.assertions(2);
+  observer.eventEmitter.addListener('CipRun', (cip) => {
+    expect(cip.name).toBe('CIP911');
+    expect(cip.programm).toBe(2);
+  });
 });

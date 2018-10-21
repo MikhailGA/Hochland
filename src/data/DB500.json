@@ -6,7 +6,7 @@
   },
   "meta": [
     {
-      "cipName": "CIP911",
+      "name": "CIP911",
       "programm": { "offset": 234, "type": "int16"},
       "wayNumber": { "offset": 224, "type": "int16"},
       "stageNumber": { "offset": 240, "type": "int16"},
@@ -15,7 +15,7 @@
       "emgDelay": { "offset": 232, "type": "int16"}
     },
     {
-      "cipName": "CIP912",
+      "name": "CIP912",
       "programm": { "offset": 434, "type": "int16"},
       "wayNumber": { "offset": 424, "type": "int16"},
       "stageNumber": { "offset": 440, "type": "int16"},
@@ -24,7 +24,7 @@
       "emgDelay": { "offset": 432, "type": "int16"}
     },
     {
-      "cipName": "CIP913",
+      "name": "CIP913",
       "programm": { "offset": 634, "type": "int16"},
       "wayNumber": { "offset": 624, "type": "int16"},
       "stageNumber": { "offset": 640, "type": "int16"},
@@ -33,7 +33,7 @@
       "emgDelay": { "offset": 632, "type": "int16"}
     },
     {
-      "cipName": "CIP914",
+      "name": "CIP914",
       "programm": { "offset": 834, "type": "int16"},
       "wayNumber": { "offset": 824, "type": "int16"},
       "stageNumber": { "offset": 840, "type": "int16"},
@@ -42,7 +42,7 @@
       "emgDelay": { "offset": 832, "type": "int16"}
     },
     {
-      "cipName": "CIP915",
+      "name": "CIP915",
       "programm": { "offset": 1034, "type": "int16"},
       "wayNumber": { "offset": 1024, "type": "int16"},
       "stageNumber": { "offset": 1040, "type": "int16"},

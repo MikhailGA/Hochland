@@ -49,6 +49,7 @@ const generateEvent = (curCip, cip) => {
 
 const watch = async (dataFromPlc) => {
   const newCol = await dataFromPlc;
+
   if (_.isEqual(oldCol, newCol)) {
     return false;
   }
