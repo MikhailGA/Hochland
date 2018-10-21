@@ -1,0 +1,54 @@
+{
+  "config": {
+    "dbNumber": 500,
+    "start": 0,
+    "size": 1200
+  },
+  "meta": [
+    {
+      "cipName": "CIP911",
+      "programm": { "offset": 234, "type": "int16"},
+      "wayNumber": { "offset": 224, "type": "int16"},
+      "stageNumber": { "offset": 240, "type": "int16"},
+      "stepNumber": { "offset": 220, "type": "int16"},
+      "delayTimeCode": { "offset": 230, "type": "int16"},
+      "emgDelay": { "offset": 232, "type": "int16"}
+    },
+    {
+      "cipName": "CIP912",
+      "programm": { "offset": 434, "type": "int16"},
+      "wayNumber": { "offset": 424, "type": "int16"},
+      "stageNumber": { "offset": 440, "type": "int16"},
+      "stepNumber": { "offset": 420, "type": "int16"},
+      "delayTimeCode": { "offset": 430, "type": "int16"},
+      "emgDelay": { "offset": 432, "type": "int16"}
+    },
+    {
+      "cipName": "CIP913",
+      "programm": { "offset": 634, "type": "int16"},
+      "wayNumber": { "offset": 624, "type": "int16"},
+      "stageNumber": { "offset": 640, "type": "int16"},
+      "stepNumber": { "offset": 620, "type": "int16"},
+      "delayTimeCode": { "offset": 630, "type": "int16"},
+      "emgDelay": { "offset": 632, "type": "int16"}
+    },
+    {
+      "cipName": "CIP914",
+      "programm": { "offset": 834, "type": "int16"},
+      "wayNumber": { "offset": 824, "type": "int16"},
+      "stageNumber": { "offset": 840, "type": "int16"},
+      "stepNumber": { "offset": 820, "type": "int16"},
+      "delayTimeCode": { "offset": 830, "type": "int16"},
+      "emgDelay": { "offset": 832, "type": "int16"}
+    },
+    {
+      "cipName": "CIP915",
+      "programm": { "offset": 1034, "type": "int16"},
+      "wayNumber": { "offset": 1024, "type": "int16"},
+      "stageNumber": { "offset": 1040, "type": "int16"},
+      "stepNumber": { "offset": 1020, "type": "int16"},
+      "delayTimeCode": { "offset": 1030, "type": "int16"},
+      "emgDelay": { "offset": 1032, "type": "int16"}
+    }
+  ]
+}
